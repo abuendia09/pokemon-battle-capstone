@@ -1,0 +1,260 @@
+/* Animations */
+@keyframes attackAnimation {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes healAnimation {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+/* landing page css */
+.landing-page {
+  background-image: url(./assets/pokemon-background.jpeg);
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  color: white;
+}
+
+.landing-page h1 {
+  padding-top: 8px;
+  text-align: center;
+  font-family: "Pokemon Solid";
+  -webkit-text-fill-color: yellow;
+  -webkit-text-stroke: 3px blue;
+  letter-spacing: 0.1em;
+}
+
+.landing-page .container {
+  padding: 5px;
+}
+
+.landing-page .btn {
+  font-family: "Press Start 2P";
+}
+
+/* navbar css */
+.poke-ball {
+  width: 5vh;
+  height: 5vh;
+  margin-left: 10px;
+}
+
+/* footer css */
+.footer {
+  color: black;
+  margin-left: 10px;
+}
+
+/* login and register css */
+.background-image {
+  background: url("./assets/latias-background.jpeg") no-repeat center center
+    fixed;
+  background-size: cover;
+}
+
+.forms-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.forms-box {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 8px;
+}
+
+input {
+  padding: 8px;
+  margin-bottom: 16px;
+}
+
+button {
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* pokemon list CSS */
+.pokemon-list-container {
+  background: url("./assets/pikachu.jpeg") no-repeat center center fixed;
+  background-size: cover;
+}
+.card {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+}
+
+/* Battle CSS */
+.battle-container {
+  background-image: url("./assets/pokemon-stadium.jpeg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  color: white;
+}
+
+.battle-buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.battle-buttons button {
+  margin: 0 10px;
+  padding: 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+.battle-buttons button.attack {
+  background-color: #ff4d4d;
+  color: white;
+}
+
+.battle-buttons button.heal {
+  background-color: #66cc66;
+  color: white;
+}
+
+.pokemon-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.pokemon {
+  text-align: center;
+}
+.pokemon img {
+  max-width: 100%;
+}
+
+.pokemon-info {
+  margin-top: 10px;
+}
+
+.vs-text {
+  font-family: "Pokemon Solid";
+  -webkit-text-fill-color: yellow;
+  -webkit-text-stroke: 3px blue;
+  letter-spacing: 0.1em;
+  font-size: 48px;
+  margin: 0 20px;
+}
+.battle-background {
+  background-image: url("./assets/battle-image.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+}
+
+.battle-log-container {
+  width: 100%;
+  text-align: center;
+}
+.battle-log-container ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.play-again-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.play-again {
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: #3399ff;
+  color: white;
+}
+
+.attack-animation {
+  animation: attackAnimation 0.5s ease-in-out;
+}
+
+.heal-animation {
+  animation: healAnimation 0.5s ease-in-out;
+}
+
+/* Profile CSS */
+.profile-container {
+  font-family: "Roboto", sans-serif;
+  height: 100vh;
+  background-image: url("./assets/profile-background.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.profile-content {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.profile-header {
+  font-size: 36px;
+  color: #333;
+}
+
+.profile-text {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 15px;
+}
