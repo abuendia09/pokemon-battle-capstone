@@ -43,12 +43,12 @@ CREATE TABLE battlelog (
 );
 
 INSERT INTO pokemon (name, type, image, health, attack, defense) VALUES
-  ('Charmander', 'Fire','https://www.hiclipart.com/free-transparent-background-png-clipart-stgdu' ,50, 50, 50),
-  ('Vulpix', 'Fire','https://www.hiclipart.com/free-transparent-background-png-clipart-stgdu', 50, 50, 50),
-  ('Growlithe', 'Fire','https://www.hiclipart.com/free-transparent-background-png-clipart-stgdu' ,50, 50, 50),
-  ('Squirtle', 'Water','https://www.hiclipart.com/free-transparent-background-png-clipart-stgdu' ,50, 50, 50),
-  ('Psyduck', 'Water','https://www.hiclipart.com/free-transparent-background-png-clipart-stgdu' ,50, 50, 50),
-  ('Gyarados', 'Water','https://www.hiclipart.com/free-transparent-background-png-clipart-stgdu' ,50, 50, 50),
-  ('Bulbasaur', 'Grass','https://www.hiclipart.com/free-transparent-background-png-clipart-stgdu' ,50, 50, 50),
-  ('Oddish', 'Grass', 50, 50, 50),
-  ('Bellsprout', 'Grass', 50, 50, 50);
+  ('Charmander', 'Fire','https://assets.pokemon.com/assets/cms2/img/pokedex/full/004.png' ,50, 50, 50),
+  ('Vulpix', 'Fire','https://assets.pokemon.com/assets/cms2/img/pokedex/full/037.png', 50, 50, 50),
+  ('Growlithe', 'Fire','https://assets.pokemon.com/assets/cms2/img/pokedex/full/058.png' ,50, 50, 50),
+  ('Squirtle', 'Water','https://assets.pokemon.com/assets/cms2/img/pokedex/full/007.png' ,50, 50, 50),
+  ('Psyduck', 'Water','https://assets.pokemon.com/assets/cms2/img/pokedex/full/054.png' ,50, 50, 50),
+  ('Gyarados', 'Water','https://assets.pokemon.com/assets/cms2/img/pokedex/full/130.png' ,50, 50, 50),
+  ('Bulbasaur', 'Grass','https://assets.pokemon.com/assets/cms2/img/pokedex/full/001.png' ,50, 50, 50),
+  ('Oddish', 'Grass', 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/043.png', 50, 50, 50),
+  ('Bellsprout', 'Grass', 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/069.png', 50, 50, 50);
